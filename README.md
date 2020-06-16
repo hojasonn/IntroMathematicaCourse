@@ -1,6 +1,6 @@
 # Introduction to Mathematica for Physics 
 
-This is a set of six Mathematica notebooks and supplementary notes that I developed at the University of Saskatchewan as part of an introductory quantum mechanics course. The six tutorials build consecutively on one another, and introduce students to using Mathematica in order to solve common physics problems related to quantum mechanics.  
+This is a set of six Mathematica notebooks and supplementary notes that I developed at the University of Saskatchewan from 2014--2019 as part of an introductory quantum mechanics course. The six tutorials build consecutively on one another, and introduce students to using Mathematica in order to solve common physics problems related to quantum mechanics.  
 
 The six tutorials cover:
   - Mathematica syntax and Calculus
