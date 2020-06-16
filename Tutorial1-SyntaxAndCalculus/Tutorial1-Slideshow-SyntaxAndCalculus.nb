@@ -1,0 +1,996 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     36544,        988]
+NotebookOptionsPosition[     29337,        856]
+NotebookOutlinePosition[     30634,        888]
+CellTagsIndexPosition[     30556,        883]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.713659943069192*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"0b242811-0ffc-42e0-bcfa-5f1617342eb3"],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " Tutorial #1"
+}], "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.713659907886376*^9, 
+   3.713659913145203*^9}},ExpressionUUID->"ca2c6dfa-54fe-4dad-85c8-\
+c08390cba32e"],
+
+Cell[TextData[{
+ "Introduction to ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " &\nCalculus"
+}], "Subtitle",
+ CellChangeTimes->{{3.713659915657207*^9, 
+  3.713659935538331*^9}},ExpressionUUID->"140ac296-0f17-4872-880c-\
+a44bc15a79f5"],
+
+Cell["Jason Ho", "Subsubtitle",
+ CellChangeTimes->{{3.68165212268783*^9, 3.6816521279122868`*^9}, {
+  3.7766140522769337`*^9, 3.7766140526891403`*^9}, {3.8013152234958687`*^9, 
+  3.801315226122726*^9}},ExpressionUUID->"c07dd7d5-46db-4f1a-89b6-\
+df7f454d0881"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ad47e680-2c9c-4f25-8fa1-ce64540fe8a0"],
+
+Cell[CellGroupData[{
+
+Cell["Defining Functions and Plotting", "Section",
+ CellChangeTimes->{{3.7132795071459303`*^9, 
+  3.7132795164860973`*^9}},ExpressionUUID->"f24f5d85-6f59-4d69-b170-\
+2581c8082c3d"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Defining a function requires us to use an undefined head, a variable, and \
+square brackets enclosing the argument. Notice the coloring before and after \
+evaluation (black, blue, green).\
+\>", "Item",
+ CellChangeTimes->{{3.713664184095291*^9, 3.713664249099283*^9}, {
+   3.7136646905754147`*^9, 3.7136647113711147`*^9}, {3.7136649571079206`*^9, 
+   3.713664957111722*^9}, 
+   3.745576619499867*^9},ExpressionUUID->"44fef598-745a-475d-b6e6-\
+321999ec15ea"],
+
+Cell[TextData[{
+ "An underscore following our function argument denotes a ",
+ StyleBox["pattern",
+  FontSlant->"Italic"],
+ " in Mathematica; it\[CloseCurlyQuote]s almost like a wildcard."
+}], "Subitem",
+ CellChangeTimes->{{3.713664184095291*^9, 3.713664249099283*^9}, {
+   3.7136646905754147`*^9, 3.7136647113711147`*^9}, {3.7136649571079206`*^9, 
+   3.7136649579688797`*^9}, 3.713710054296445*^9, 
+   3.7137100936338387`*^9},ExpressionUUID->"df7dba1a-eabb-4b34-a450-\
+196d3d84b747"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"f", "[", "x_", "]"}], ":=", 
+  FractionBox[
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"x", "^", "3"}], "+", 
+     RowBox[{"2", 
+      RowBox[{"x", "^", "2"}]}], "+", "x", "-", "5"}], ")"}], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"16", 
+      RowBox[{"x", "^", "2"}]}], "-", 
+     RowBox[{"5", "x"}], "-", "2"}], ")"}]]}]], "Input",
+ CellChangeTimes->{{3.713664184095291*^9, 3.713664288699353*^9}, {
+  3.713664345014374*^9, 3.713664345015531*^9}, {3.776614812733914*^9, 
+  3.776614820249621*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"dbcd1907-4e8f-4d07-91f8-a372caae501f"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Use the ",
+ StyleBox["Plot[ ",
+  FontWeight->"Bold"],
+ StyleBox["f, {x, a, b}",
+  FontSlant->"Italic"],
+ StyleBox[" ]",
+  FontWeight->"Bold"],
+ " command to plot a function ",
+ StyleBox["f ",
+  FontSlant->"Italic"],
+ " with respect to ",
+ StyleBox["x ",
+  FontSlant->"Italic"],
+ "over an interval ",
+ StyleBox["a < x < b",
+  FontSlant->"Italic"],
+ "."
+}], "Item",
+ CellChangeTimes->{{3.713664184095291*^9, 3.713664249099283*^9}, {
+  3.7136646905754147`*^9, 3.7136647113711147`*^9}, {3.713664783260665*^9, 
+  3.713664825694858*^9}, {3.713664928060802*^9, 3.713664929851274*^9}, {
+  3.713664991768911*^9, 3.713665017141782*^9}, {3.7136650496087627`*^9, 
+  3.713665104563711*^9}, {3.713665163680004*^9, 
+  3.713665163683077*^9}},ExpressionUUID->"bf2ae79f-ef1d-469a-93f3-\
+43fadeabf01f"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Lots of options exist to supplement your plots and make them look pretty. \
+Look through the documentation to explore what\[CloseCurlyQuote]s available \
+to you.",
+ StyleBox[" Remember: ",
+  FontWeight->"Bold"],
+ "plots should always be presented fully labelled (title, axes, legend)"
+}], "Subitem",
+ CellChangeTimes->{{3.713664184095291*^9, 3.713664249099283*^9}, {
+  3.7136646905754147`*^9, 3.7136647113711147`*^9}, {3.713664783260665*^9, 
+  3.713664825694858*^9}, {3.713664928060802*^9, 3.713664929851274*^9}, {
+  3.713664991768911*^9, 3.713665017141782*^9}, {3.7136650496087627`*^9, 
+  3.713665104563711*^9}, {3.713665163680004*^9, 3.713665281822505*^9}, {
+  3.713665341235359*^9, 
+  3.713665341239401*^9}},ExpressionUUID->"84c5dd8e-6002-4820-8909-\
+0fa94d4c5a05"],
+
+Cell[TextData[{
+ "Curly braces ",
+ StyleBox["{ } ",
+  FontWeight->"Bold"],
+ "represent ",
+ StyleBox["lists",
+  FontSlant->"Italic"],
+ " in Mathematica. Here we use them in the ",
+ StyleBox["Plot[ ]",
+  FontWeight->"Bold"],
+ " command to define a range. This is how we contain multiple values in a \
+single option. We\[CloseCurlyQuote]ll use these more later on."
+}], "Subitem",
+ CellChangeTimes->{{3.713664184095291*^9, 3.713664249099283*^9}, {
+  3.7136646905754147`*^9, 3.7136647113711147`*^9}, {3.713664783260665*^9, 
+  3.713664825694858*^9}, {3.713664928060802*^9, 3.713664929851274*^9}, {
+  3.713664991768911*^9, 3.713665017141782*^9}, {3.7136650496087627`*^9, 
+  3.713665104563711*^9}, {3.713665163680004*^9, 3.713665281822505*^9}, {
+  3.713665341235359*^9, 3.7136654345323277`*^9}, {3.7136678728160458`*^9, 
+  3.713667872822187*^9}},ExpressionUUID->"eff3b9b0-4c47-4e43-af97-\
+9e5b8985c21a"],
+
+Cell[TextData[{
+ "Take a look in the documentation at the other options available to you in ",
+ StyleBox["Plot[ ]",
+  FontWeight->"Bold"],
+ "; particularly ",
+ StyleBox["MaxRecursion ",
+  FontWeight->"Bold"],
+ "and",
+ StyleBox[" PlotPoints.",
+  FontWeight->"Bold"]
+}], "Subitem",
+ CellChangeTimes->{{3.713664184095291*^9, 3.713664249099283*^9}, {
+  3.7136646905754147`*^9, 3.7136647113711147`*^9}, {3.713664783260665*^9, 
+  3.713664825694858*^9}, {3.713664928060802*^9, 3.713664929851274*^9}, {
+  3.713664991768911*^9, 3.713665017141782*^9}, {3.7136650496087627`*^9, 
+  3.713665104563711*^9}, {3.713665163680004*^9, 3.713665281822505*^9}, {
+  3.713665341235359*^9, 3.7136654345323277`*^9}, {3.7136678728160458`*^9, 
+  3.713667904040922*^9}},ExpressionUUID->"92a574b1-c432-4d62-8eeb-\
+387ad88800d6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"define", " ", "range"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"a", "=", 
+     RowBox[{"-", "5"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"b", "=", "5"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"plot", " ", "function"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"f", "[", "x", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "a", ",", "b"}], "}"}]}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"f", "[", "x", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "a", ",", "b"}], "}"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "1"}], ",", "0.5"}], "}"}]}], ",", 
+     RowBox[{"AxesLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<x\>\"", ",", "\"\<f(x)\>\""}], "}"}]}]}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.713667618314376*^9, 3.713667685178343*^9}, {
+  3.776614834137124*^9, 3.776614922312195*^9}, {3.776615141850348*^9, 
+  3.77661514834519*^9}},ExpressionUUID->"248849b7-6d21-42be-bee4-\
+4d91473a5df6"],
+
+Cell[TextData[{
+ StyleBox["Exercise", "Text",
+  FontWeight->"Bold"],
+ StyleBox[": ",
+  FontWeight->"Bold"],
+ "Define the function given on the whiteboard as ",
+ StyleBox["g(x).",
+  FontSlant->"Italic"],
+ " Plot ",
+ StyleBox["g(x).",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.713279529051567*^9, 3.713279550193853*^9}, {
+  3.713279584369893*^9, 3.713279586513247*^9}, {3.713279707620475*^9, 
+  3.713279753165118*^9}},
+ Background->RGBColor[
+  0.88, 1, 0.88],ExpressionUUID->"c78db22e-6dd0-4e0f-a30b-5ce10374f9d4"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"7e0d2a6c-f26d-4443-967a-199ee112f2b9"],
+
+Cell[CellGroupData[{
+
+Cell["Derivatives and Integration", "Section",
+ CellChangeTimes->{{3.7132796874868393`*^9, 
+  3.7132796908510933`*^9}},ExpressionUUID->"ece26c2d-8f50-4909-8f1d-\
+5dab0520cedd"],
+
+Cell[CellGroupData[{
+
+Cell["Derivatives", "Subsection",
+ CellChangeTimes->{{3.7136664103902073`*^9, 
+  3.713666411728266*^9}},ExpressionUUID->"9af4d0c2-923d-44a7-986d-\
+2341d0ef167b"],
+
+Cell[TextData[{
+ "Our derivative command is ",
+ StyleBox["D[ ",
+  FontWeight->"Bold"],
+ StyleBox["f, x",
+  FontSlant->"Italic"],
+ StyleBox[" ]. ",
+  FontWeight->"Bold"],
+ "There are optional forms that allow us to differentiate the function ",
+ StyleBox["f ",
+  FontSlant->"Italic"],
+ "multiple times, or by different variables. "
+}], "Item",
+ CellChangeTimes->{{3.713665498550984*^9, 3.713665506468215*^9}, {
+  3.7136659010573473`*^9, 3.713665980479021*^9}, {3.713666426305273*^9, 
+  3.7136664263117743`*^9}},ExpressionUUID->"6c3e7d90-39c0-48fb-acd7-\
+285c84611854"],
+
+Cell[BoxData[{
+ RowBox[{"f", "[", "x", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], ",", "x"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.713665498550984*^9, 3.713665506468215*^9}, {
+  3.7136659010573473`*^9, 3.713665980479021*^9}, {3.713666426305273*^9, 
+  3.713666446489509*^9}, {3.713666618981934*^9, 3.713666655578381*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"978c6a51-e2f7-4815-aa2d-cd1705e6960a"],
+
+Cell[TextData[{
+ "Some useful supplementary commands for analytic results are ",
+ StyleBox["Expand[ ] ",
+  FontWeight->"Bold"],
+ "and ",
+ StyleBox["Simplify[ ].",
+  FontWeight->"Bold"]
+}], "Item",
+ CellChangeTimes->{{3.713665498550984*^9, 3.713665506468215*^9}, {
+  3.7136659010573473`*^9, 3.713666052301178*^9}, {3.713666428127071*^9, 
+  3.713666428130096*^9}},ExpressionUUID->"c7d6d12e-dfd8-4191-9ecc-\
+25fb81926282"],
+
+Cell[BoxData[{
+ RowBox[{"Simplify", "[", 
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{"f", "[", "x", "]"}], ",", "x"}], "]"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Expand", "[", 
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{"f", "[", "x", "]"}], ",", "x"}], "]"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.713665498550984*^9, 3.713665506468215*^9}, {
+  3.7136659010573473`*^9, 3.713666052301178*^9}, {3.713666428127071*^9, 
+  3.713666442250634*^9}, {3.713666670573105*^9, 3.713666695363895*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"f0bc64ef-7fac-4fd9-b3e0-e26f2444adca"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "When plotting derivatives (like you\[CloseCurlyQuote]ll do later on in this \
+tutorial), you need to wrap the derivative in an ",
+ StyleBox["Evaluate[ ] ",
+  FontWeight->"Bold"],
+ "command or make sure Mathematica evaluates the derivative ",
+ StyleBox["before ",
+  FontSlant->"Italic"],
+ "plotting. The reason isn\[CloseCurlyQuote]t hugely important at this point; \
+it has to do with how Mathematica treats the order of operations for these \
+commands."
+}], "Item",
+ CellChangeTimes->{{3.713665498550984*^9, 3.713665506468215*^9}, {
+  3.7136659010573473`*^9, 3.713666084144813*^9}, {3.7136661183153467`*^9, 
+  3.7136661812006063`*^9}, {3.776614949332902*^9, 
+  3.7766149751277037`*^9}},ExpressionUUID->"85c38b18-bee2-4e9e-a0cf-\
+46653def4c79"],
+
+Cell[TextData[{
+ "i.e. ",
+ StyleBox["Evaluate[ D[ ",
+  FontWeight->"Bold"],
+ StyleBox["f(x), x",
+  FontSlant->"Italic"],
+ StyleBox["] ]",
+  FontWeight->"Bold"]
+}], "Subitem",
+ CellChangeTimes->{{3.713665498550984*^9, 3.713665506468215*^9}, {
+  3.7136659010573473`*^9, 3.713666084144813*^9}, {3.7136661183153467`*^9, 
+  3.7136662072297373`*^9}},ExpressionUUID->"e1d213b0-c71a-419d-af88-\
+5beb1f2623a8"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"f", "[", "x", "]"}], ",", 
+     RowBox[{"Evaluate", "[", 
+      RowBox[{"D", "[", 
+       RowBox[{
+        RowBox[{"f", "[", "x", "]"}], ",", "x"}], "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "a", ",", "b"}], "}"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "1"}], ",", "1"}], "}"}]}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<x\>\"", ",", "\"\<f(x)\>\""}], "}"}]}], ",", 
+   RowBox[{"PlotLegends", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<f(x)\>\"", ",", "\"\<f'(x)\>\""}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.776615165675127*^9, 3.776615234884368*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"7b8b2be9-2fb6-4f88-b982-3979f85638e5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Integrals", "Subsection",
+ CellChangeTimes->{{3.7136667717445383`*^9, 
+  3.713666774481464*^9}},ExpressionUUID->"5830bd0d-30e2-4ac6-9605-\
+ff656caaf0ed"],
+
+Cell[TextData[{
+ "Just like our ",
+ StyleBox["Plot[ ] ",
+  FontWeight->"Bold"],
+ "command, the ",
+ StyleBox["Integrate[ ] ",
+  FontWeight->"Bold"],
+ "command takes two arguments: a function, and a list declaring an \
+integration variable and a range. Alternatively, we can perform an indefinite \
+integral by declaring just an integration variable instead of a list."
+}], "Item",
+ CellChangeTimes->{{3.7136672088041773`*^9, 3.713667232994526*^9}, {
+   3.713667363672122*^9, 3.713667376498499*^9}, {3.713667491777746*^9, 
+   3.713667542250215*^9}, {3.713668197092538*^9, 3.713668241658506*^9}, 
+   3.7455764833011503`*^9},ExpressionUUID->"4701526d-4050-4cb1-ad3b-\
+182fbf4b9b87"],
+
+Cell[BoxData[{
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1", ",", "10"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], ",", "x"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.713667546485201*^9, 3.713667583108964*^9}, {
+  3.713667664118779*^9, 3.713667665415888*^9}, {3.713668172120234*^9, 
+  3.713668209386594*^9}, {3.7766150077289343`*^9, 3.7766150232081957`*^9}, {
+  3.7766150566620693`*^9, 3.7766150567685003`*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"7fcbcde1-0ffe-4caf-956c-705c745c6764"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "There\[CloseCurlyQuote]s extra options available for the command ",
+ StyleBox["Integrate[ ]. ",
+  FontWeight->"Bold"],
+ "Look up the documentation and take a look at ",
+ StyleBox["Assumptions.",
+  FontWeight->"Bold"]
+}], "Item",
+ CellChangeTimes->{{3.7136672088041773`*^9, 3.713667232994526*^9}, {
+  3.713667363672122*^9, 3.713667376498499*^9}, {3.713667491777746*^9, 
+  3.71366754222187*^9}, {3.713667711908183*^9, 3.7136677950968*^9}, {
+  3.7136678495612793`*^9, 3.713667862354719*^9}, {3.7136680403436613`*^9, 
+  3.713668040347678*^9}},ExpressionUUID->"ac91e2bf-ff82-4cc5-8abe-\
+99921b65c15a"],
+
+Cell[TextData[{
+ "If you need to evaluate an integral numerically, use ",
+ StyleBox["NIntegrate[ ]",
+  FontWeight->"Bold"],
+ "; it works pretty much the same as ",
+ StyleBox["Integrate[ ].",
+  FontWeight->"Bold"]
+}], "Item",
+ CellChangeTimes->{{3.7136672088041773`*^9, 3.713667232994526*^9}, {
+  3.713667363672122*^9, 3.713667376498499*^9}, {3.713667491777746*^9, 
+  3.71366754222187*^9}, {3.713667711908183*^9, 3.7136677950968*^9}, {
+  3.7136678495612793`*^9, 3.713667862354719*^9}, {3.7136680403436613`*^9, 
+  3.71366807327584*^9}},ExpressionUUID->"765ca9d9-4927-463b-afbf-\
+396cacc7b885"]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["Exercise: ",
+  FontWeight->"Bold"],
+ "Define a new function ",
+ StyleBox["f(a)",
+  FontSlant->"Italic"],
+ ", the integral of ",
+ StyleBox["g(x), ",
+  FontSlant->"Italic"],
+ "over [0, ",
+ StyleBox["a",
+  FontSlant->"Italic"],
+ "]. Find a value for ",
+ StyleBox["a",
+  FontSlant->"Italic"],
+ "=10. You may need to use ",
+ StyleBox["Clear[ ",
+  FontWeight->"Bold"],
+ StyleBox["f",
+  FontSlant->"Italic"],
+ StyleBox[" ] ",
+  FontWeight->"Bold"],
+ "if you\[CloseCurlyQuote]ve already previously defined a function ",
+ StyleBox["f.",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.7132796992890787`*^9, 3.713279702921629*^9}, {
+   3.713279755078948*^9, 3.713279827435502*^9}, {3.713279933114847*^9, 
+   3.713279935796809*^9}, {3.713280824456771*^9, 3.713280853696385*^9}, 
+   3.713280895809471*^9, {3.713668311402776*^9, 3.713668350758443*^9}},
+ Background->RGBColor[
+  0.88, 1, 0.88],ExpressionUUID->"8fe28255-78cf-4805-81b3-847412cc868e"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"13fdc851-328f-4929-8827-f2ce7277c27c"],
+
+Cell[CellGroupData[{
+
+Cell["Putting It All Together", "Section",
+ CellChangeTimes->{{3.7132810473340473`*^9, 
+  3.713281069417038*^9}},ExpressionUUID->"a65cafbb-906b-4b59-9a3b-\
+8416266cfe15"],
+
+Cell[TextData[{
+ StyleBox["Exercise:",
+  FontWeight->"Bold"],
+ " Take ",
+ StyleBox["f(a), g(x), ",
+  FontSlant->"Italic"],
+ "and define a third function ",
+ StyleBox["h(b)=g\[CloseCurlyQuote](x)",
+  FontSlant->"Italic"],
+ ". Plot all three on a single figure.\n",
+ StyleBox["Reminder: ",
+  FontSlant->"Italic"],
+ "All plots require:\n\t- Axis Labels\n\t- Title\n\t- Legend\nWhen complete: \
+\n\t1. Save your notebook in the format ",
+ StyleBox["lastnameFirstInitial_TutorialNumber.nb",
+  FontSlant->"Italic"],
+ "\n\t2. Email your notebook to ",
+ StyleBox["j.ho@example.ca ",
+  FontWeight->"Bold"],
+ "from your institutional email address."
+}], "Text",
+ CellChangeTimes->{{3.7132809074683228`*^9, 3.713281003266848*^9}, {
+  3.7766140867991*^9, 3.776614172290596*^9}, {3.7766142084177303`*^9, 
+  3.776614286026815*^9}, {3.776615104360786*^9, 3.776615106584078*^9}, {
+  3.801317635523872*^9, 3.801317641416157*^9}},
+ Background->RGBColor[
+  0.88, 1, 0.88],ExpressionUUID->"2c015782-6d51-44da-87b5-757f4c70836a"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"a72d6234-7fa9-43b2-914c-843cf98d3b9e"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Summary - ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " Syntax"
+}], "Section",
+ CellChangeTimes->{{3.713278771743381*^9, 3.713278780464115*^9}, {
+  3.713666730385198*^9, 
+  3.713666732784149*^9}},ExpressionUUID->"72e7ec7f-32b0-4db9-a783-\
+285ddd535f44"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["4 Basic Rules :",
+ FontWeight->"Bold"]], "Item",
+ CellChangeTimes->{
+  3.713278787877688*^9, 3.713660025640464*^9, {3.713660060970811*^9, 
+   3.7136600960741053`*^9}, {3.713660225475409*^9, 
+   3.7136602330395327`*^9}},ExpressionUUID->"b07f502c-d301-458b-88ab-\
+88a52c07417c"],
+
+Cell[CellGroupData[{
+
+Cell["Capital letters on all command names.", "Subitem",
+ CellChangeTimes->{
+  3.713278787877688*^9, 3.713660025640464*^9, {3.713660060970811*^9, 
+   3.7136600960741053`*^9}, {3.713660225475409*^9, 
+   3.713660277651469*^9}},ExpressionUUID->"14d9837d-2737-4b77-88c3-\
+6a01d5c7afde"],
+
+Cell["[ ] surround function arguments.", "Subitem",
+ CellChangeTimes->{
+  3.713278787877688*^9, 3.713660025640464*^9, {3.713660060970811*^9, 
+   3.7136600960741053`*^9}, {3.713660225475409*^9, 3.713660282319262*^9}, {
+   3.7136603210554667`*^9, 
+   3.713660321063936*^9}},ExpressionUUID->"50e197a7-015d-47b1-a01a-\
+a871f2390bf1"],
+
+Cell[CellGroupData[{
+
+Cell["Eg. f[x]:=Sin[x]/x", "Subsubitem",
+ CellChangeTimes->{
+  3.713278787877688*^9, 3.713660025640464*^9, {3.713660060970811*^9, 
+   3.7136600960741053`*^9}, {3.713660225475409*^9, 3.713660282319262*^9}, {
+   3.7136603210554667`*^9, 
+   3.713660331055768*^9}},ExpressionUUID->"f98fce0c-10d5-4fc7-b92d-\
+b7b17c86815d"],
+
+Cell[TextData[{
+ StyleBox["Note:",
+  FontSlant->"Italic"],
+ " There is a difference between using = vs. := for definitions"
+}], "Subsubitem",
+ CellChangeTimes->{
+  3.713278787877688*^9, 3.713660025640464*^9, {3.713660060970811*^9, 
+   3.7136600960741053`*^9}, {3.713660225475409*^9, 3.713660282319262*^9}, {
+   3.7136603210554667`*^9, 
+   3.713660335456297*^9}},ExpressionUUID->"33edd8d0-b79a-438a-bbe7-\
+9cd512273eae"]
+}, Open  ]],
+
+Cell["{ } are use for lists and ranges.", "Subitem",
+ CellChangeTimes->{
+  3.713278787877688*^9, 3.713660025640464*^9, {3.713660060970811*^9, 
+   3.7136600960741053`*^9}, {3.713660225475409*^9, 3.713660246945817*^9}, {
+   3.713660285807062*^9, 
+   3.713660292548799*^9}},ExpressionUUID->"0e1c04fd-ef6f-44c7-abb2-\
+1aca371e6410"],
+
+Cell["\<\
+Shift + Enter to evaluate input (or Enter on your number pad).\
+\>", "Subitem",
+ CellChangeTimes->{
+  3.713278787877688*^9, 3.713660025640464*^9, {3.713660060970811*^9, 
+   3.7136600960741053`*^9}, {3.713660225475409*^9, 3.713660246945817*^9}, {
+   3.713660295584084*^9, 
+   3.713660300031927*^9}},ExpressionUUID->"cc4409ee-9d93-4fd5-ad84-\
+7106a5a9e20c"]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["?",
+  FontWeight->"Bold"],
+ " brings up the manual entry for a command"
+}], "Item",
+ CellChangeTimes->{{3.713278823349988*^9, 3.713278869954811*^9}, {
+  3.713278962193749*^9, 
+  3.713278962195361*^9}},ExpressionUUID->"1ea42fe8-8e3c-4b6a-9c30-\
+b8415fb3ee24"],
+
+Cell[TextData[{
+ StyleBox["Blue", "Text",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]],
+ " is undefined, ",
+ StyleBox["black",
+  FontWeight->"Bold"],
+ " is defined."
+}], "Item",
+ CellChangeTimes->{{3.713278823349988*^9, 3.713278869954811*^9}, {
+  3.713278962193749*^9, 3.713278974213669*^9}, {3.713279339427059*^9, 
+  3.713279343342103*^9}},ExpressionUUID->"da32713d-1aa2-44fe-bafa-\
+24dede3b6dd5"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ccf88879-206a-4c1b-b421-66a0c1dc14da"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Summary - Calculus in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.7136607236293163`*^9, 3.713660727078251*^9}, {
+  3.713666737496461*^9, 
+  3.713666738897682*^9}},ExpressionUUID->"85ba6c74-9f49-46bc-b29c-\
+46b33ff95a74"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Take derivatives using ",
+ StyleBox["D[ ",
+  FontWeight->"Bold"],
+ StyleBox["f",
+  FontSlant->"Italic"],
+ StyleBox[", ",
+  FontWeight->"Bold"],
+ StyleBox["x",
+  FontSlant->"Italic"],
+ StyleBox[" ]",
+  FontWeight->"Bold"]
+}], "Item",
+ CellChangeTimes->{{3.713660842033515*^9, 3.713660905264216*^9}, 
+   3.7136611241989403`*^9},ExpressionUUID->"ed09f881-e404-477b-87a2-\
+35fa4ad70c4a"],
+
+Cell["\<\
+Options available for partial and multiple/multivariate derivatives.\
+\>", "Subitem",
+ CellChangeTimes->{{3.713660842033515*^9, 3.713660957994863*^9}, {
+  3.713660991663918*^9, 
+  3.713660991668559*^9}},ExpressionUUID->"cf390133-f7b7-476e-8155-\
+9a2440bbaba7"],
+
+Cell[TextData[{
+ "Integrals (both definite and indefinite) may be done by using ",
+ StyleBox["Integrate[",
+  FontWeight->"Bold"],
+ " ",
+ StyleBox["f, x",
+  FontSlant->"Italic"],
+ " ",
+ StyleBox["]",
+  FontWeight->"Bold"]
+}], "Item",
+ CellChangeTimes->{{3.713660842033515*^9, 3.713660957994863*^9}, 
+   3.713660991663918*^9, {3.713661056336565*^9, 3.7136611033218317`*^9}, {
+   3.713661141644216*^9, 
+   3.71366114164848*^9}},ExpressionUUID->"6c2e0ecb-248d-4908-a8f9-\
+d7d8fe1c186d"],
+
+Cell["Options available for multiple/multivariate integrals.", "Subitem",
+ CellChangeTimes->{{3.713660842033515*^9, 3.713660957994863*^9}, 
+   3.713660991663918*^9, {3.713661056336565*^9, 3.7136611033218317`*^9}, {
+   3.713661141644216*^9, 
+   3.7136611861753683`*^9}},ExpressionUUID->"5e0aabf2-e8df-4272-b0d8-\
+99650edbca96"],
+
+Cell["\<\
+Numerical methods can be useful in evaluating integrals with no analytic \
+solution.\
+\>", "Item",
+ CellChangeTimes->{{3.713660842033515*^9, 3.713660957994863*^9}, 
+   3.713660991663918*^9, {3.713661056336565*^9, 3.7136611033218317`*^9}, {
+   3.713661141644216*^9, 3.713661186171027*^9}, 3.7136612624298267`*^9, {
+   3.713661335797278*^9, 3.713661405480997*^9}, {3.7136614740218782`*^9, 
+   3.7136615164473543`*^9}},ExpressionUUID->"066b0405-c9f5-4aed-8f3c-\
+0ed4182ecb8e"],
+
+Cell[TextData[{
+ "You may need to invoke ",
+ StyleBox["Assumptions ",
+  FontWeight->"Bold"],
+ "if you're getting ",
+ StyleBox["ConditionalExpressions",
+  FontWeight->"Bold"],
+ " as an output."
+}], "Item",
+ CellChangeTimes->{{3.713660842033515*^9, 3.713660957994863*^9}, 
+   3.713660991663918*^9, {3.713661056336565*^9, 3.7136611033218317`*^9}, {
+   3.713661141644216*^9, 3.713661186171027*^9}, 3.7136612624298267`*^9, {
+   3.713661335797278*^9, 3.713661405480997*^9}, 
+   3.7136614740218782`*^9},ExpressionUUID->"79903f06-3ebe-470d-a238-\
+9f2dde98a734"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1680, 958},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+TaggingRules->{"SlideShow" -> True},
+FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[579, 22, 4414, 96, 75, "SlideShowNavigationBar",ExpressionUUID->"0b242811-0ffc-42e0-bcfa-5f1617342eb3",
+   CellTags->"SlideShowHeader"],
+  Cell[5786, 149, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ad47e680-2c9c-4f25-8fa1-ce64540fe8a0",
+   CellTags->"SlideShowHeader"],
+  Cell[12891, 355, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"7e0d2a6c-f26d-4443-967a-199ee112f2b9",
+   CellTags->"SlideShowHeader"],
+  Cell[21298, 601, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"13fdc851-328f-4929-8827-f2ce7277c27c",
+   CellTags->"SlideShowHeader"],
+  Cell[22675, 644, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"a72d6234-7fa9-43b2-914c-843cf98d3b9e",
+   CellTags->"SlideShowHeader"],
+  Cell[26313, 759, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ccf88879-206a-4c1b-b421-66a0c1dc14da",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 29664, 867}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 4414, 96, 75, "SlideShowNavigationBar",ExpressionUUID->"0b242811-0ffc-42e0-bcfa-5f1617342eb3",
+ CellTags->"SlideShowHeader"],
+Cell[4996, 120, 245, 8, 98, "Title",ExpressionUUID->"ca2c6dfa-54fe-4dad-85c8-c08390cba32e"],
+Cell[5244, 130, 243, 8, 87, "Subtitle",ExpressionUUID->"140ac296-0f17-4872-880c-a44bc15a79f5"],
+Cell[5490, 140, 259, 4, 32, "Subsubtitle",ExpressionUUID->"c07dd7d5-46db-4f1a-89b6-df7f454d0881"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5786, 149, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ad47e680-2c9c-4f25-8fa1-ce64540fe8a0",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5933, 155, 180, 3, 68, "Section",ExpressionUUID->"f24f5d85-6f59-4d69-b170-2581c8082c3d"],
+Cell[CellGroupData[{
+Cell[6138, 162, 466, 9, 32, "Item",ExpressionUUID->"44fef598-745a-475d-b6e6-321999ec15ea"],
+Cell[6607, 173, 483, 10, 27, "Subitem",ExpressionUUID->"df7dba1a-eabb-4b34-a450-196d3d84b747"]
+}, Open  ]],
+Cell[7105, 186, 614, 17, 59, "Input",ExpressionUUID->"dbcd1907-4e8f-4d07-91f8-a372caae501f"],
+Cell[CellGroupData[{
+Cell[7744, 207, 801, 25, 32, "Item",ExpressionUUID->"bf2ae79f-ef1d-469a-93f3-43fadeabf01f"],
+Cell[CellGroupData[{
+Cell[8570, 236, 786, 15, 27, "Subitem",ExpressionUUID->"84c5dd8e-6002-4820-8909-0fa94d4c5a05"],
+Cell[9359, 253, 896, 20, 27, "Subitem",ExpressionUUID->"eff3b9b0-4c47-4e43-af97-9e5b8985c21a"],
+Cell[10258, 275, 798, 18, 27, "Subitem",ExpressionUUID->"92a574b1-c432-4d62-8eeb-387ad88800d6"]
+}, Open  ]]
+}, Open  ]],
+Cell[11083, 297, 1229, 34, 170, "Input",ExpressionUUID->"248849b7-6d21-42be-bee4-4d91473a5df6"],
+Cell[12315, 333, 527, 16, 51, "Text",ExpressionUUID->"c78db22e-6dd0-4e0f-a30b-5ce10374f9d4"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12891, 355, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"7e0d2a6c-f26d-4443-967a-199ee112f2b9",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13038, 361, 176, 3, 68, "Section",ExpressionUUID->"ece26c2d-8f50-4909-8f1d-5dab0520cedd"],
+Cell[CellGroupData[{
+Cell[13239, 368, 161, 3, 55, "Subsection",ExpressionUUID->"9af4d0c2-923d-44a7-986d-2341d0ef167b"],
+Cell[13403, 373, 567, 16, 32, "Item",ExpressionUUID->"6c3e7d90-39c0-48fb-acd7-285c84611854"],
+Cell[13973, 391, 454, 8, 55, "Input",ExpressionUUID->"978c6a51-e2f7-4815-aa2d-cd1705e6960a"],
+Cell[14430, 401, 419, 11, 32, "Item",ExpressionUUID->"c7d6d12e-dfd8-4191-9ecc-25fb81926282"],
+Cell[14852, 414, 581, 13, 55, "Input",ExpressionUUID->"f0bc64ef-7fac-4fd9-b3e0-e26f2444adca"],
+Cell[CellGroupData[{
+Cell[15458, 431, 762, 16, 53, "Item",ExpressionUUID->"85c38b18-bee2-4e9e-a0cf-46653def4c79"],
+Cell[16223, 449, 401, 12, 27, "Subitem",ExpressionUUID->"e1d213b0-c71a-419d-af88-5beb1f2623a8"]
+}, Open  ]],
+Cell[16639, 464, 862, 24, 31, "Input",ExpressionUUID->"7b8b2be9-2fb6-4f88-b982-3979f85638e5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17538, 493, 159, 3, 55, "Subsection",ExpressionUUID->"5830bd0d-30e2-4ac6-9605-ff656caaf0ed"],
+Cell[17700, 498, 678, 15, 53, "Item",ExpressionUUID->"4701526d-4050-4cb1-ad3b-182fbf4b9b87"],
+Cell[18381, 515, 637, 13, 55, "Input",ExpressionUUID->"7fcbcde1-0ffe-4caf-956c-705c745c6764"],
+Cell[CellGroupData[{
+Cell[19043, 532, 614, 13, 32, "Item",ExpressionUUID->"ac91e2bf-ff82-4cc5-8abe-99921b65c15a"],
+Cell[19660, 547, 591, 13, 32, "Item",ExpressionUUID->"765ca9d9-4927-463b-afbf-396cacc7b885"]
+}, Open  ]],
+Cell[20266, 563, 971, 31, 51, "Text",ExpressionUUID->"8fe28255-78cf-4805-81b3-847412cc868e"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21298, 601, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"13fdc851-328f-4929-8827-f2ce7277c27c",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[21445, 607, 170, 3, 68, "Section",ExpressionUUID->"a65cafbb-906b-4b59-9a3b-8416266cfe15"],
+Cell[21618, 612, 1008, 26, 212, "Text",ExpressionUUID->"2c015782-6d51-44da-87b5-757f4c70836a"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22675, 644, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"a72d6234-7fa9-43b2-914c-843cf98d3b9e",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[22822, 650, 280, 9, 68, "Section",ExpressionUUID->"72e7ec7f-32b0-4db9-a783-285ddd535f44"],
+Cell[CellGroupData[{
+Cell[23127, 663, 300, 6, 32, "Item",ExpressionUUID->"b07f502c-d301-458b-88ab-88a52c07417c"],
+Cell[CellGroupData[{
+Cell[23452, 673, 282, 5, 27, "Subitem",ExpressionUUID->"14d9837d-2737-4b77-88c3-6a01d5c7afde"],
+Cell[23737, 680, 329, 6, 27, "Subitem",ExpressionUUID->"50e197a7-015d-47b1-a01a-a871f2390bf1"],
+Cell[CellGroupData[{
+Cell[24091, 690, 318, 6, 26, "Subsubitem",ExpressionUUID->"f98fce0c-10d5-4fc7-b92d-b7b17c86815d"],
+Cell[24412, 698, 419, 10, 26, "Subsubitem",ExpressionUUID->"33edd8d0-b79a-438a-bbe7-9cd512273eae"]
+}, Open  ]],
+Cell[24846, 711, 328, 6, 27, "Subitem",ExpressionUUID->"0e1c04fd-ef6f-44c7-abb2-1aca371e6410"],
+Cell[25177, 719, 365, 8, 27, "Subitem",ExpressionUUID->"cc4409ee-9d93-4fd5-ad84-7106a5a9e20c"]
+}, Open  ]],
+Cell[25557, 730, 285, 8, 32, "Item",ExpressionUUID->"1ea42fe8-8e3c-4b6a-9c30-b8415fb3ee24"],
+Cell[25845, 740, 407, 12, 32, "Item",ExpressionUUID->"da32713d-1aa2-44fe-bafa-24dede3b6dd5"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26313, 759, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ccf88879-206a-4c1b-b421-66a0c1dc14da",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[26460, 765, 282, 8, 68, "Section",ExpressionUUID->"85ba6c74-9f49-46bc-b29c-46b33ff95a74"],
+Cell[CellGroupData[{
+Cell[26767, 777, 401, 15, 32, "Item",ExpressionUUID->"ed09f881-e404-477b-87a2-35fa4ad70c4a"],
+Cell[27171, 794, 270, 6, 27, "Subitem",ExpressionUUID->"cf390133-f7b7-476e-8155-9a2440bbaba7"],
+Cell[27444, 802, 482, 15, 32, "Item",ExpressionUUID->"6c2e0ecb-248d-4908-a8f9-d7d8fe1c186d"],
+Cell[27929, 819, 326, 5, 27, "Subitem",ExpressionUUID->"5e0aabf2-e8df-4272-b0d8-99650edbca96"],
+Cell[28258, 826, 483, 9, 32, "Item",ExpressionUUID->"066b0405-c9f5-4aed-8f3c-0ed4182ecb8e"],
+Cell[28744, 837, 553, 14, 32, "Item",ExpressionUUID->"79903f06-3ebe-470d-a238-9f2dde98a734"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
